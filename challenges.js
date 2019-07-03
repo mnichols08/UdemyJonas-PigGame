@@ -19,7 +19,7 @@ GAME RULES:
 
 var scores, roundScore, activePlayer, dice1, dice2, lastDice1, lastDice2, lastDice;
 
-init();
+//init();
 
 document.querySelector(".btn-roll").addEventListener("click", function() {
     if (gamePlaying){
